@@ -28,7 +28,8 @@ body {
 }
 
 .column img {
-  margin-top: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   vertical-align: middle;
 }
 
