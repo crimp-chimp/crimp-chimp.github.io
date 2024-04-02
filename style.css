@@ -2,3 +2,10 @@ body {
   font-family: "Space Mono", Icons;
   font-style: normal;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
