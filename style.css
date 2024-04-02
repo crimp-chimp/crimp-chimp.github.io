@@ -34,18 +34,18 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
-  padding: 0 2%;
+  padding: 0 1%;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
   -ms-flex: 50%; /* IE 10 */
   flex: 50%;
-  padding: 0 2%;
+  padding: 0 1%;
 }
 
 .column img {
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: 0%;
   vertical-align: middle;
 }
@@ -58,9 +58,7 @@ h3 {
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
+  padding: 0 4%;
 }
 
 /* Style the list inside the menu */
@@ -71,10 +69,8 @@ nav ul {
 
 article {
   float: left;
-  padding: 20px;
+  padding: 0;
   width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
