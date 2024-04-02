@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monoRegular;
 }
 
 .header {
@@ -30,4 +30,9 @@ body {
 .column img {
   margin-top: 16px;
   vertical-align: middle;
+}
+
+@font-face {
+  font-family: monoRegular;
+  src: url(GT-Pressura-Mono-Regular.otf);
 }
