@@ -17,14 +17,14 @@ body {
   display: flex;
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
-  padding: 4 4px;
+  padding: 0 8px;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
-  -ms-flex: 40%; /* IE 10 */
-  flex: 40%;
-  padding: 4 4px;
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 8px;
 }
 
 .column img {
