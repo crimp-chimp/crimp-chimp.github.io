@@ -2,31 +2,66 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Liam Schenk - Photography</title>
+    <title>Liam Schenk</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-      img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+
+      .row {
+        display: -ms-flexbox; /* IE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+
+      /* Create two equal columns that sits next to each other */
+      .column {
+        -ms-flex: 50%; /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
       }
     </style>
   </head>
   <body>
-    <h3>liam schenk</h3>
-    <p>Analog film: an art form underscored by finality and often forgotten by modern photographers. In a society where overconsumption and fast-paced life are norms, analog film turns people off more and more. Something about "you take a picture, and that's it" rubs most everyone the wrong way. In a conscious effort to slow down and appreciate the life God has given all around me, I've leaned into the finality of analog film. This is a monument to that effort; a summary of the steps taken and the beauty observed. Enjoy, or don't.</p>
-    <p>35mm film shot conventionally using an Olympus PC.</p>
-    <p>Kodak 200, Psych Blues #3</p>
-    <h4>Bozeman, MT; Feb. 16-19, 2024</h4>
-    <p>I’m sharply aware that the seemingly unchanging aspects of my life, like my Nalgene covered in stickers or my sister teasing me about being granola, may not accompany me unfailingly. And whether they do or don’t, God has been and will be the hyphen tying together the chapters of my life. I’m broken and I have strayed and yet God has never stopped holding my hand. Where he’s led me the past year–InterVarsity at the U, and a house with 10 roommates, and a wonderful friendship with a girl he made so beautifully inside and out–are truly green pastures. And where he led Liv and I this past weekend–time in Montana with Kenzie and Ken–was life-giving, meaningful, and fun as all get-out. I’m grateful that God has put these three in my life, taught me so much through them, and gave us these “green pasture” Montana moments, even though they’re covered in snow.</p>
-    <img src="./assets/f001/95830006.JPG" alt="West Yellowstone; Kodak 200" class="inline" height="300"/>
-    <img src="./assets/f001/95830033.JPG" alt="Ennis; Kodak 200" class="inline" height="300"/>
-    <img src="./assets/f001/95830034.JPG" alt="Liv, Idaho Falls; Kodak 200" class="inline" height="300"/>
-    <img src="./assets/f001/95830014.JPG" alt="Hyalite #1; Kodak 200" class="inline" height="300"/>
-    <img src="./assets/f001/95830015.JPG" alt="Hyalite #2; Kodak 200" class="inline" height="300"/>
-    <img src="./assets/f001/95830016.JPG" alt="Hyalite #3; Kodak 200" class="inline" height="300"/>
-    <img src="./assets/f001/95830017.JPG" alt="Hyalite #4; Kodak 200" class="inline" height="300"/>
-    <img src="./assets/f001/95830018.JPG" alt="Hyalite #5; Kodak 200" class="inline" height="300"/>
-    <img src="./assets/f001/95830019.JPG" alt="Hyalite #6; Kodak 200" style="width:50%;"/>
+    <div class="header" id="myHeader">
+      <h3>liam schenk</h3>
+      <p>Analog film: an art form underscored by finality and often forgotten by modern photographers. In a society where overconsumption and fast-paced life are norms, analog film turns people off more and more. Something about "you take a picture, and that's it" rubs most everyone the wrong way. In a conscious effort to slow down and appreciate the life God has given all around me, I've leaned into the finality of analog film. This is a monument to that effort; a summary of the steps taken and the beauty observed. Enjoy, or don't.</p>
+      <p>35mm film shot conventionally using an Olympus PC.</p>
+      <p>Kodak 200, Psych Blues #3</p>
+      <h4>Bozeman, MT; Feb. 16-19, 2024</h4>
+      <p>I’m sharply aware that the seemingly unchanging aspects of my life, like my Nalgene covered in stickers or my sister teasing me about being granola, may not accompany me unfailingly. And whether they do or don’t, God has been and will be the hyphen tying together the chapters of my life. I’m broken and I have strayed and yet God has never stopped holding my hand. Where he’s led me the past year–InterVarsity at the U, and a house with 10 roommates, and a wonderful friendship with a girl he made so beautifully inside and out–are truly green pastures. And where he led Liv and I this past weekend–time in Montana with Kenzie and Ken–was life-giving, meaningful, and fun as all get-out. I’m grateful that God has put these three in my life, taught me so much through them, and gave us these “green pasture” Montana moments, even though they’re covered in snow.</p>
+    </div>
+
+    <div class="row"> 
+      <div class="column">
+        <img src="./assets/f001/95830006.JPG" alt="West Yellowstone; Kodak 200" style="width:50%;"/>
+        <img src="./assets/f001/95830033.JPG" alt="Ennis; Kodak 200" style="width:50%;"/>
+        <img src="./assets/f001/95830034.JPG" alt="Liv, Idaho Falls; Kodak 200" style="width:50%;"/>
+        <img src="./assets/f001/95830014.JPG" alt="Hyalite #1; Kodak 200" style="width:50%;"/>
+        <img src="./assets/f001/95830015.JPG" alt="Hyalite #2; Kodak 200" style="width:50%;"/>
+        <img src="./assets/f001/95830016.JPG" alt="Hyalite #3; Kodak 200" style="width:50%;"/>
+        <img src="./assets/f001/95830017.JPG" alt="Hyalite #4; Kodak 200" style="width:50%;"/>
+        <img src="./assets/f001/95830018.JPG" alt="Hyalite #5; Kodak 200" style="width:50%;"/>
+        <img src="./assets/f001/95830019.JPG" alt="Hyalite #6; Kodak 200" style="width:50%;"/>
+      </div>
+    </div>
   </body>
 </html>
