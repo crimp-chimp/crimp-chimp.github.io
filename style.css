@@ -2,9 +2,22 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: monoRegular;
+@media screen and (max-width: 320px)
+{
+  body {
+    font:12px/em/rm;
+    margin: 0;
+    font-family: monoRegular;
+  }
+}
+
+@media screen and (max-width: 4000px)
+{
+  body {
+    font:24px/em/rm;
+    margin: 0;
+    font-family: monoRegular;
+  }
 }
 
 h3 {
