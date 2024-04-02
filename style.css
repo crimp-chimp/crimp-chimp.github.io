@@ -1,3 +1,8 @@
 body {
-  color: yellow;
+  color: black;
+}
+
+img {
+    max-width: 100%;
+    width: auto\9;
 }
