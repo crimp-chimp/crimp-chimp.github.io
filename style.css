@@ -7,6 +7,10 @@ body {
   font-family: monoRegular;
 }
 
+h3 {
+  font-family: monoLightItalic;
+}
+
 .header {
   text-align: left;
   padding: 32px;
