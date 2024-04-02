@@ -8,7 +8,7 @@ body {
 }
 
 h3 {
-  font-family: monoLightItalic;
+  font-family: monoRegularItalic;
 }
 
 .header {
@@ -33,7 +33,7 @@ h3 {
 
 .column img {
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   vertical-align: middle;
 }
 
