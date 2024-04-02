@@ -39,5 +39,30 @@ body {
 
 @font-face {
   font-family: monoRegular;
-  src: url(GT-Pressura-Mono-Regular.otf);
+  src: url(src/fonts/GT-Pressura-Mono-Regular.otf);
+}
+
+@font-face {
+  font-family: monoRegularItalic;
+  src: url(src/fonts/GT-Pressura-Mono-Regular-Italic.otf);
+}
+
+@font-face {
+  font-family: monoBold;
+  src: url(src/fonts/GT-Pressura-Mono-Bold.otf);
+}
+
+@font-face {
+  font-family: monoBoldItalic;
+  src: url(src/fonts/GT-Pressura-Mono-Bold-Italic.otf);
+}
+
+@font-face {
+  font-family: monoLight;
+  src: url(src/fonts/GT-Pressura-Mono-Light.otf);
+}
+
+@font-face {
+  font-family: monoLightItalic;
+  src: url(src/fonts/GT-Pressura-Mono-Light-Italic.otf);
 }
