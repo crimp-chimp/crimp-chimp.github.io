@@ -11,6 +11,10 @@ h3 {
   font-family: monoBold;
 }
 
+p {
+  line-height: 2%;
+}
+
 .header {
   text-align: left;
   padding: 0 4%;
@@ -39,7 +43,6 @@ h3 {
 
 .hidden {
     visibility: hidden;
-    line-height: 2%;
 }
 
 @font-face {
