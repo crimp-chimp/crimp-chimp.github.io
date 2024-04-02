@@ -4,6 +4,16 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Liam Schenk</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      "use strict";
+
+      document.addEventListener("click", event => {
+          const img = event.target.closest(".toggle-image");
+          if (img && img.nextElementSibling.tagName === "FIGCAPTION") {
+              img.nextElementSibling.classList.toggle("hidden");
+          }
+      });
+    </script>
   </head>
   <body>
     <div class="header" id="myHeader">
@@ -17,7 +27,10 @@
 
     <div class="row">
       <div class="column">
-        <img src="./assets/f001/95830006.JPG" alt="West Yellowstone; Kodak 200" style="width:100%;"/>
+        <figure style="width:100%;">
+            <img src="./assets/f001/95830006.JPG" alt="West Yellowstone; Kodak 200" class="toggle-image" value="hide/show"/>
+            <figcaption class="hidden">West Yellowstone; Kodak 200</figcaption>
+        </figure>
         <img src="./assets/f001/95830033.JPG" alt="Ennis; Kodak 200" style="width:100%;"/>
         <img src="./assets/f001/95830034.JPG" alt="Liv, Idaho Falls; Kodak 200" style="width:100%;"/>
         <img src="./assets/f001/95830014.JPG" alt="Hyalite #1; Kodak 200" style="width:100%;"/>

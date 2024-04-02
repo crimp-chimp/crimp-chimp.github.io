@@ -33,6 +33,10 @@ body {
   vertical-align: middle;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 @font-face {
   font-family: monoRegular;
   src: url(GT-Pressura-Mono-Regular.otf);
