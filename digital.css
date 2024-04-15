@@ -46,30 +46,6 @@ footer {
   padding: 20px;
 }
 
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  width: 100%;
-  overflow: auto;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown-content a {
-  display: block;
-  color: #000000;
-  padding: 5px;
-  text-decoration: none;
-}
-.dropdown-content a:hover {
-  color: #FFFFFF;
-  background-color: #00A4BD;
-}
-
 @font-face {
   font-family: monoRegular;
   src: url(src/fonts/GT-Pressura-Mono-Regular.otf);
