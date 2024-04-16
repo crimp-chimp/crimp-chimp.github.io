@@ -5,28 +5,12 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #555;
   color: #fff;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-header nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
 }
 
 section {
@@ -40,14 +24,14 @@ section {
 }
 
 footer {
-  background-color: #333;
+  background-color: #555;
   color: #fff;
   text-align: center;
   padding: 20px;
 }
 
 .navbar {
-	background-color: #333;
+	background-color: #555;
 	position: relative;
 	z-index: 999;
 }
@@ -87,7 +71,7 @@ footer {
 
 /* Change the background color of dropdown links on hover */
 .navbar ul ul li a:hover {
-	background-color: #333;
+	background-color: #555;
 }
 
 @font-face {
