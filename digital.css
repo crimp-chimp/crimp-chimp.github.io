@@ -87,7 +87,7 @@ footer {
 
 /* Change the background color of dropdown links on hover */
 .navbar ul ul li a:hover {
-	background-color: #555;
+	background-color: #333;
 }
 
 @font-face {
